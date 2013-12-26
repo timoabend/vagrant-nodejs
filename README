@@ -1,0 +1,4 @@
+Vagrantfile for Ubuntu 12.04 (precise64) 
+and Puppet-Manifest for latest Node.js, MongoDB, Nginx
+
+Just "vagrant up".
