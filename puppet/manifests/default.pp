@@ -76,3 +76,13 @@ package { "git":
 package { "nmap":
 	ensure => latest
 }
+
+exec { "npm_nodemon":
+	command => "npm install -g nodemon",
+	require => Package["npm"]
+}
+
+exec { "npm_expressjs":
+	command => "npm install -g express",
+	require => Package["npm"]
+}
